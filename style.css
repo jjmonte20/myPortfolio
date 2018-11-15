@@ -1,0 +1,36 @@
+/* https://www.fabric.com/buy/0380647/dupioni-silk-fabric-hot-pink */
+/* Use this for the background */
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: auto;
+}
+
+header {
+    margin-bottom: auto;
+}
+
+.height100 {
+    height: 100%;
+}
+
+.d-flex {
+    flex-direction: column;
+}
+.inner-cover {
+    padding: 0 1.5em;
+    text-align: center;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+footer {
+    margin-top: auto;
+    color: grey;
+    text-align: center;
+}
