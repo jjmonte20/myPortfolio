@@ -38,6 +38,10 @@ p {
     margin-top: 1%;
 }
 
+.carousel-caption {
+    background-color: rgb(166,167,170, .9);
+}
+
 .cardDeck {
     margin-top: 1%;
     margin-bottom: 1%;
