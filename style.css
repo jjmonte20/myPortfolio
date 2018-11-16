@@ -24,7 +24,7 @@ header {
     text-align: center;
 }
 
-.nav-item, a {
+.navbar-brand, .nav-item, a {
     cursor: pointer;
 }
 
