@@ -25,7 +25,7 @@ header {
     text-align: center;
 }
 
-.navbar-brand, .nav-item, a {
+.navbar-brand, .nav-item, a, .carousel-control-next, .carousel-control-prev  {
     cursor: pointer;
 }
 
@@ -53,6 +53,10 @@ p {
 
 .card,.card-body {
     max-height: 100%;
+}
+
+label {
+    float: left;
 }
 
 footer {
