@@ -2,6 +2,9 @@
 /* Use this for the background */
 html, body {
     height: 100%;
+    background-image: url(images/sandbackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body {
@@ -23,6 +26,10 @@ header {
 .inner-cover {
     padding: 0 1.5em;
     text-align: center;
+}
+
+.navbar-brand, .nav-link {
+    color: black;
 }
 
 .navbar-brand, .nav-item, a, .carousel-control-next, .carousel-control-prev  {
@@ -63,6 +70,10 @@ footer {
     margin-top: auto;
     color: grey;
     text-align: center;
+}
+
+.inner {
+    color: black;
 }
 
 .mediaButtons {
