@@ -32,7 +32,11 @@ header {
     color: black;
 }
 
-.navbar-brand, .nav-item, a, .carousel-control-next, .carousel-control-prev  {
+.nav-link:hover, .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-brand, .nav-item, a, .carousel-control-next, .carousel-control-prev, .linkButton  {
     cursor: pointer;
 }
 
@@ -46,7 +50,7 @@ p {
 }
 
 .carousel-caption {
-    background-color: rgb(166,167,170, .9);
+    background-color: rgb(32,34,37, .8);
 }
 
 .cardDeck {
