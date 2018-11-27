@@ -83,3 +83,13 @@ footer {
 .mediaButtons {
     margin-bottom: 1%;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        /* width: 100%; */
+    }
+
+    .cover-heading, .cover-text {
+        font-size: 1em;
+    }
+}
