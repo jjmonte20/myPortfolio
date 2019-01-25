@@ -1,99 +1,82 @@
-/* https://www.fabric.com/buy/0380647/dupioni-silk-fabric-hot-pink */
-/* Use this for the background */
-html, body {
-    height: 100%;
-    background-image: url(images/sandbackground.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.navbar-default {
+    background: #fff;
+    border: 0;
+    font-family: Poppins
 }
 
-#page1, #page2, #page3 {
-    height: 1000px;
+.navbar-brand {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold
 }
 
-body {
-    margin: auto;
-}
-
-header {
-    margin-bottom: auto;
-}
-
-.height100 {
-    height: 100%;
-}
-
-.d-flex {
-    display: flex;
-    flex-direction: column;
-}
-.inner-cover {
-    padding: 0 1.5em;
+#cover {
+    margin-top: auto;
     text-align: center;
+    height: 900px;
 }
 
-.navbar-brand, .nav-link {
+i {
+    font-size: 50px;
+    margin: 1%;
     color: black;
 }
 
-.nav-link:hover, .navbar-brand:hover {
-    color: white;
+section {
+    flex-direction: column
 }
 
-.navbar-brand, .nav-item, a, .carousel-control-next, .carousel-control-prev, .linkButton  {
-    cursor: pointer;
-}
-
-p {
-    margin-top: 0;
-    margin-bottom: 1.5em;
-}
-
-.carousel {
-    margin-top: 1%;
-}
-
-.carousel-caption {
-    background-color: rgb(32,34,37, .8);
-}
-
-.cardDeck {
+.row {
     margin-top: 1%;
     margin-bottom: 1%;
-    max-height: 55%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
-.card,.card-body {
-    max-height: 100%;
+.card-img {
+    opacity: 1;
+    transition: .5s ease;
 }
 
-label {
-    float: left;
+.card:hover .card-img {
+    opacity: .5;
+}
+
+.card-img-overlay {
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.card:hover .card-img-overlay {
+    opacity: 1;
+}
+
+img {
+    width: 100%
 }
 
 footer {
-    margin-top: auto;
-    color: grey;
-    text-align: center;
+    text-align: center
 }
 
-.inner {
-    color: black;
+.triviaBackground {
+    background-image: url(images/TriviaGame.PNG);
 }
 
-.mediaButtons {
-    margin-bottom: 1%;
+.bamazonBackground {
+    background-image: url(images/bamazonHomeScreen.PNG);
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-        /* width: 100%; */
-    }
+.liriBackground {
+    background-image: url(images/liriapp.PNG);
+}
 
-    .cover-heading, .cover-text {
-        font-size: 1em;
-    }
+.modal {
+    text-align: center
+}
+
+.projectDesc {
+    text-align: center
+}
+
+/* on the bottom */
+#footer {
 }

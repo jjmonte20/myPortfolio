@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <!-- reset should be first -->
+        <link rel="stylesheet" href="reset.css">
+        <!-- Custom font -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <!-- my own stylesheet should be last -->
+        <link rel="stylesheet" href="style.css">
+        <!-- title of the webpage -->
+        <title>About me</title>
+    </head>
+    <body>
+        <!-- header, make sure it's always on top of the window-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">Julian Montejano</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav navbar-right nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container height100 d-flex">
+            <div class="inner-cover">
+                <div id="page1">
+                <a id="cover" class="smooth"></a>
+                    <h1 class="coverHeading">I'm Julian <strong>Montejano</strong></h1>
+                    <p class="coverText">I'm build things for the web</p>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-node-js"></i>
+                    <i class="fab fa-react"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-php"></i>
+                    <i class="fab fa-laravel"></i>
+                </div>
+
+                <div id="page2">
+                <a id="about" class="smooth"></a>
+                    <!-- Resume like content goes here -->
+                </div>
+
+                <div id="page3">
+                    <a id="portfolio" class="smooth"></a>
+
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12">
+                            <!-- Each card should be a background of what they are.  They should hover and show their name and tagline.  Modal will show description and offer showing the live site and github repo -->
+                            <div class="card text-center bg-dark text-white" style="width: 18rem;">
+                                <img src="images/liriapp.PNG" class="card-img"/>
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title">Liri</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Media search node application</h6>
+                                    <!-- Button trigger modal -->
+                                    <i class="btn btn-primary fas fa-expand-arrows-alt" data-toggle="modal" data-target="#liriModal"></i>
+                                    <!-- <p class="card-text">Search application that will search for songs or concerts from an artist.  Can also search for movie information and set up a custom command.</p>
+                                    <a href="https://github.com/jjmonte20/liri" class="card-link">Github Repository</a> -->
+                                </div>
+                                <!-- Modal -->
+                                <div class="modal modal-xl fade" id="liriModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-center" role="document">
+                                        <div class="modal-content liriBackground">
+                                            <div class="modal-body">
+                                                <p>Search application that will search for songs or concerts from an artist.  Can also search for movie information and set up a custom command.</p>
+                                                <a href="https://github.com/jjmonte20/liri" class="card-link">Github Repository</a>
+                                            </div>
+                                        </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="card col-md-3 text-center bg-dark text-white" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Videogame Trivia Quiz</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Time quiz for fans of videogames</h6>
+                                <p class="card-text">A two minute, ten question quiz where the user answers questions by clicking one of four options.  Answer will be provided if incorrect, and final score will be provided at the end of the quiz or the timer ends.</p>
+                                <a href="https://jjmonte20.github.io/TriviaGame/" class="card-link">Live Example</a>
+                                <a href="https://github.com/jjmonte20/TriviaGame/" class="card-link">Github Repository</a>
+                            </div>
+                        </div>
+
+                        <div class="card col-md-3 text-center bg-dark text-white" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Gem Game</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Counting game using gems</h6>
+                                <p class="card-text">Counting game where a target score will show on the screen and the user is provided with gems with random, but consistent values for the length of the game.  The user can find the value of each gem by clicking it and comparing the score before and after clicking the gem.  User wins if they hit the target score correctly, and lose if they go over the target score.</p>
+                                <a href="https://jjmonte20.github.io/unit-4-game/" class="card-link">Live Example</a>
+                                <a href="https://github.com/jjmonte20/unit-4-game/" class="card-link">Github Repository</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="card col-md-3 text-center bg-dark text-white" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Gem Game</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Counting game using gems</h6>
+                                <p class="card-text">Counting game where a target score will show on the screen and the user is provided with gems with random, but consistent values for the length of the game.  The user can find the value of each gem by clicking it and comparing the score before and after clicking the gem.  User wins if they hit the target score correctly, and lose if they go over the target score.</p>
+                                <a href="https://jjmonte20.github.io/unit-4-game/" class="card-link">Live Example</a>
+                                <a href="https://github.com/jjmonte20/unit-4-game/" class="card-link">Github Repository</a>
+                            </div>
+                        </div>
+
+                        <div class="card col-md-3 text-center bg-dark text-white" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Psychic Game</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Letter guessing game</h6>
+                                <p class="card-text">User has 10 guesses to match the key press the computer has guessed at random.  If the user guesses incorrectly the user loses a chance, game ends when the user guesses correctly or runs out of guesses.</p>
+                                <a href="https://jjmonte20.github.io/Psychic-Game/" class="card-link">Live Example</a>
+                                <a href="https://github.com/jjmonte20/Psychic-Game/" class="card-link">Github Repository</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card col-md-3 text-center bg-dark text-white" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Bamazon</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Customer Shop Application</h6>
+                                <p class="card-text">Nodejs and SQL shop where user can shop for a set amount of items.  Storefront should show the price and quantity of stock for each item in the store and the ability for the user to buy items.</p>
+                                <a href="https://github.com/jjmonte20/bamazon" class="card-link">Github Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="card col-md-3 text-center bg-dark text-white" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Friend Finder</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Friend matching web application</h6>
+                                <p class="card-text">User fills out a preferential quiz.  When the user submits their quiz, they are matched with an existing friend that answers questions that are the most similar to the questions the user answered themselves.</p>
+                                <a href="https://obscure-wave-59263.herokuapp.com/" class="card-link">Live Example</a>
+                                <a href="https://github.com/jjmonte20/friendfinder" class="card-link">Github Repository</a>
+                            </div>
+                        </div>
+
+                        <div class="card col-md-3 text-center bg-dark text-white" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Burger Time</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Burger creating and eating app</h6>
+                                <p class="card-text">User can add and eat hamburgers to the existing array that appears on screen.  Data will persist so once a burger is eaten, it cannot reappear as uneaten.</p>
+                                <a href="https://burgertimewbhpddy.herokuapp.com/" class="card-link">Live Example</a>
+                                <a href="https://github.com/jjmonte20/burger" class="card-link">Github Repository</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+
+            <!-- footer, make sure it's always on the bottom of the window -->
+            <footer class="footer">
+                <div class="inner">
+                    <p>Catch me on linkedIn and Github, links in the logo down below.  Email me at <jjmonte20@gmail class="com">jjmonte20@gmail.com</jjmonte20@gmail></p>
+                    <a class="linkedIn" href="https://www.linkedin.com/in/julian-montejano-541b6a91/">
+                        <img class="mediaButtons" src="images/LinkedinBlack.png" height="50" width="50" alt="linkedIn logo">
+                    </a>
+                    <a class="github" href="https://github.com/jjmonte20">
+                        <img class="mediaButtons" src="images/githubButton.png" height="50" width="50" alt="github logo">
+                    </a>
+                </div>
+            </footer>
+        </div>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </body>
+</html>
