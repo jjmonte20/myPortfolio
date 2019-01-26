@@ -16,6 +16,10 @@
     height: 900px;
 }
 
+.coverPageTxt {
+    margin-top: 15%;
+}
+
 i {
     font-size: 50px;
     margin: 1%;
@@ -47,6 +51,11 @@ section {
 
 .card:hover .card-img-overlay {
     opacity: 1;
+    background-color:rgb(153, 255, 255, .5)
+}
+
+.cardExpand {
+    font-size: 25px;
 }
 
 img {
@@ -57,26 +66,17 @@ footer {
     text-align: center
 }
 
-.triviaBackground {
-    background-image: url(images/TriviaGame.PNG);
-}
-
-.bamazonBackground {
-    background-image: url(images/bamazonHomeScreen.PNG);
-}
-
-.liriBackground {
-    background-image: url(images/liriapp.PNG);
-}
-
-.modal {
-    text-align: center
-}
-
 .projectDesc {
     text-align: center
 }
 
 /* on the bottom */
 #footer {
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        margin: auto;
+        margin-top: 1%;
+    }
 }

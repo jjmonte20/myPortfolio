@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-md navbar-default">
             <a class="navbar-brand" href="#cover">Julian Montejano</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
             </button>
             
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
@@ -35,7 +35,7 @@
         </nav>
         <!-- Content starts here -->
         <section id="cover">
-            <div class="container">
+            <div class="container coverPageTxt">
                 <div class="col-md-12 col-sm-12">
                     <h1 class="myCoverContent">I'm Julian Montejano</h1>
                 </div>
@@ -80,16 +80,16 @@
                     </div> 
                 </div>
                 <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <div class="projectImg">
+                        <img src="images/Essentials.PNG" alt="keychainWebApp"/>
+                        </div>
+                    </div>
                     <div class="col-md-4 col-sm-12 projectDesc">
                         <h1>Essentials Moving App</h1>
                         <p>The essentials moving app is site dedicated to helping users find important buildings and locations with a simple use of the search bar.  By doing so, the user can find hospitals, groceries, post offices, and more.</p>
                         <a href="https://keychain19.herokuapp.com/" class="card-link">Live Application</a>
                         <a href="https://github.com/sl8te/keychain" class="card-link">Github Repository</a>
-                    </div>
-                    <div class="col-md-8 col-sm-12">
-                        <div class="projectImg">
-                        <img src="images/Essentials.PNG" alt="keychainWebApp"/>
-                        </div>
                     </div>
                 </div>
                 
@@ -100,10 +100,11 @@
                         <div class="card text-center bg-dark text-white" style="width: 18rem;">
                             <img src="images/liriapp.PNG" class="card-img"/>
                             <div class="card-img-overlay">
+                                <div class="col-md-2 ml-auto">
+                                    <i class="fas fa-expand-arrows-alt cardExpand" data-toggle="modal" data-target="#liriModal"></i>
+                                </div>
                                 <h5 class="card-title">Liri</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Media search node application</h6>
-                                <!-- Button trigger modal -->
-                                <i class="btn btn-primary fas fa-expand-arrows-alt" data-toggle="modal" data-target="#liriModal"></i>
                             </div>
                         </div>
                     </div>
@@ -115,12 +116,11 @@
                         <div class="card text-center bg-dark text-white" style="width: 18rem;">
                             <img src="images/bamazonHomeScreen.PNG" class="card-img"/>
                             <div class="card-img-overlay">
+                                <div class="col-md-2 ml-auto">
+                                    <i class="fas fa-expand-arrows-alt cardExpand" data-toggle="modal" data-target="#bamazonModal"></i>
+                                </div>
                                 <h5 class="card-title">Bamazon</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Customer Shop Application</h6>
-                                <!-- Button trigger modal -->
-                                <i class="btn btn-primary fas fa-expand-arrows-alt" data-toggle="modal" data-target="#bamazonModal"></i>
-                                <!-- <p class="card-text">Search application that will search for songs or concerts from an artist.  Can also search for movie information and set up a custom command.</p>
-                                <a href="https://github.com/jjmonte20/liri" class="card-link">Github Repository</a> -->
                             </div>
                         </div>
                     </div>
@@ -132,10 +132,11 @@
                         <div class="card text-center bg-dark text-white" style="width: 18rem;">
                             <img src="images/TriviaGame.PNG" class="card-img"/>
                             <div class="card-img-overlay">
+                                <div class="col-md-2 ml-auto">
+                                    <i class="fas fa-expand-arrows-alt cardExpand" data-toggle="modal" data-target="#triviaModal"></i>
+                                </div>
                                 <h5 class="card-title">Videogame Trivia Quiz</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Time quiz for fans of videogames</h6>
-                                <!-- Button trigger modal -->
-                                <i class="btn btn-primary fas fa-expand-arrows-alt" data-toggle="modal" data-target="#triviaModal"></i>
                             </div>
                         </div>
                     </div>
@@ -147,10 +148,11 @@
                         <div class="card text-center bg-dark text-white" style="width: 18rem;">
                             <img src="images/heighHo!.PNG" class="card-img"/>
                             <div class="card-img-overlay">
+                                <div class="col-md-2 ml-auto">
+                                    <i class="fas fa-expand-arrows-alt cardExpand" data-toggle="modal" data-target="#gemGameModal"></i>
+                                </div>
                                 <h5 class="card-title">Heigh Ho!</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Counting Gem Game</h6>
-                                <!-- Button trigger modal -->
-                                <i class="btn btn-primary fas fa-expand-arrows-alt" data-toggle="modal" data-target="#gemGameModal"></i>
                             </div>
                         </div>
                     </div>
@@ -162,12 +164,11 @@
                         <div class="card text-center bg-dark text-white" style="width: 18rem;">
                             <img src="images/friendFinder.PNG" class="card-img"/>
                             <div class="card-img-overlay">
+                                <div class="col-md-2 ml-auto">
+                                    <i class="fas fa-expand-arrows-alt cardExpand" data-toggle="modal" data-target="#friendFinderModal"></i>
+                                </div>
                                 <h5 class="card-title">Friend Finder</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Friend matching quiz</h6>
-                                <!-- Button trigger modal -->
-                                <i class="btn btn-primary fas fa-expand-arrows-alt" data-toggle="modal" data-target="#friendFinderModal"></i>
-                                <!-- <p class="card-text">Search application that will search for songs or concerts from an artist.  Can also search for movie information and set up a custom command.</p>
-                                <a href="https://github.com/jjmonte20/liri" class="card-link">Github Repository</a> -->
                             </div>
                         </div>
                     </div>
@@ -179,10 +180,11 @@
                         <div class="card text-center bg-dark text-white" style="width: 18rem;">
                             <img src="images/burgers.PNG" class="card-img"/>
                             <div class="card-img-overlay">
+                                <div class="col-md-2 ml-auto">
+                                    <i class="fas fa-expand-arrows-alt cardExpand" data-toggle="modal" data-target="#burgerTimeModal"></i>
+                                </div>
                                 <h5 class="card-title">Burger Time</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Burger creating and eating app</h6>
-                                <!-- Button trigger modal -->
-                                <i class="btn btn-primary fas fa-expand-arrows-alt" data-toggle="modal" data-target="#burgerTimeModal"></i>
                             </div>
                         </div>
                     </div>
@@ -206,7 +208,7 @@
         <!-- Modals live here -->
 
         <!-- Modal -->
-        <div class="modal modal-xl fade" id="triviaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal modal-xl fade paginationblock" id="triviaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-center" role="document">
                 <div class="modal-content triviaBackground">
                     <div class="modal-body">
