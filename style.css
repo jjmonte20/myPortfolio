@@ -1,23 +1,35 @@
+body, html {
+    font-family: Poppins
+}
+
+.bg1 {
+    background-image: url(images/SAskyline.jpg);
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg2 {
+    background-image: url(images/PITskyline.jpg);
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .navbar-default {
     background: #fff;
     border: 0;
     font-family: Poppins
 }
 
-.navbar-brand {
-    font-size: 20px;
-    color: #000;
-    font-weight: bold
-}
-
-#cover {
-    margin-top: auto;
-    text-align: center;
-    height: 900px;
-}
-
 .coverPageTxt {
     margin-top: 15%;
+    text-align: center;
+    height: 600px;
 }
 
 i {
@@ -26,8 +38,16 @@ i {
     color: black;
 }
 
+.nav-toggler {
+    font-size: 20px;
+}
+
 section {
     flex-direction: column
+}
+
+.uberLogo {
+    margin-bottom: 1%
 }
 
 .row {
@@ -51,18 +71,18 @@ section {
 
 .card:hover .card-img-overlay {
     opacity: 1;
-    background-color:rgb(153, 255, 255, .5)
-}
-
-.cardExpand {
-    font-size: 25px;
+    background-color:rgb(79, 124, 172, .5)
 }
 
 img {
     width: 100%
 }
 
-footer {
+.card, .card-img, .card-img-overlay {
+    height: 200px;
+}
+
+.footer {
     text-align: center
 }
 
@@ -71,8 +91,6 @@ footer {
 }
 
 /* on the bottom */
-#footer {
-}
 
 @media only screen and (max-width: 600px) {
     .card {

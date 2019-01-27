@@ -15,268 +15,228 @@
     <title>Julian Montejano</title>
   </head>
   <body>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-md navbar-default">
-            <a class="navbar-brand" href="#cover">Julian Montejano</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav navbar-right nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                </ul>
-            </div>
-        </nav>
-        <!-- Content starts here -->
-        <section id="cover">
-            <div class="container coverPageTxt">
-                <div class="col-md-12 col-sm-12">
-                    <h1 class="myCoverContent">I'm Julian Montejano</h1>
-                </div>
-                <div class="col-md-12 col-sm-12">
-                    <p class="myCoverContent coverText">I'm build things for the web</p>
-                </div>
-                <div class="col-md-12 col-sm-12">
-                    <i class="myCoverContent fab fa-html5"> </i>
-                    <i class="myCoverContent fab fa-css3-alt"> </i>
-                    <i class="myCoverContent fab fa-js"> </i>
-                    <i class="myCoverContent fab fa-node-js"> </i>
-                    <i class="myCoverContent fab fa-react"> </i>
-                </div>
-                <div class="col-md-12 col-sm-12">
-                    <i class="myCoverContent fab fa-github"> </i>
-                    <i class="myCoverContent fab fa-php"> </i>
-                    <i class="myCoverContent fab fa-laravel"> </i>
-                </div>
-            </div>
-        </section>
-
-        <section id="about">
-            <div class="container">
-
-            </div>
-        </section>
-
-        <section id="Portfolio">
-            <div class="container">
-                <!-- Big projects will be presented in their own rows and have descriptions shown alongside them -->
-                <div class="row">
-                    <div class="col-md-8 col-sm-12">
-                        <div class="projectImg">
-                        <img src="images/keychainProject.PNG" alt="keychainWebApp"/>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 projectDesc">
-                        <h1>Keychain</h1>
-                        <p>Keychain is a find me web application for users to manage the account usernames they accumulate over time.  Usernames can be shared, but they are only visible to users that are friends with you.</p>
-                        <a href="https://keychain19.herokuapp.com/" class="card-link">Live Application</a>
-                        <a href="https://github.com/sl8te/keychain" class="card-link">Github Repository</a>
-                    </div> 
-                </div>
-                <div class="row">
-                    <div class="col-md-8 col-sm-12">
-                        <div class="projectImg">
-                        <img src="images/Essentials.PNG" alt="keychainWebApp"/>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 projectDesc">
-                        <h1>Essentials Moving App</h1>
-                        <p>The essentials moving app is site dedicated to helping users find important buildings and locations with a simple use of the search bar.  By doing so, the user can find hospitals, groceries, post offices, and more.</p>
-                        <a href="https://keychain19.herokuapp.com/" class="card-link">Live Application</a>
-                        <a href="https://github.com/sl8te/keychain" class="card-link">Github Repository</a>
-                    </div>
-                </div>
+        <div class="wrapper">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-md navbar-default">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                </button>
                 
-                <!-- small projects in cards -->
-                <div class="row">
-                    <div class="col-md-3 col-sm-12">
-                        <!-- Each card should be a background of what they are.  They should hover and show their name and tagline.  Modal will show description and offer showing the live site and github repo -->
-                        <div class="card text-center bg-dark text-white" style="width: 18rem;">
-                            <img src="images/liriapp.PNG" class="card-img"/>
-                            <div class="card-img-overlay">
-                                <div class="col-md-2 ml-auto">
-                                    <i class="fas fa-expand-arrows-alt cardExpand" data-toggle="modal" data-target="#liriModal"></i>
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav navbar-right nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Content starts here -->
+            <section id="section cover">
+                <div class="coverPageTxt">
+                    <div class="col-md-12 col-sm-12">
+                        <h1 class="myCoverContent">Julian Montejano</h1>
+                    </div>
+                    <div class="col-md-12 col-sm-12">
+                        <p class="myCoverContent coverText">Full Stack Web Developer</p>
+                    </div>
+                    <div class="col-md-12 col-sm-12">
+                        <i class="myCoverContent fab fa-html5"> </i>
+                        <i class="myCoverContent fab fa-css3-alt"> </i>
+                        <i class="myCoverContent fab fa-js"> </i>
+                        <i class="myCoverContent fab fa-node-js"> </i>
+                        <i class="myCoverContent fab fa-react"> </i>
+                    </div>
+                    <div class="col-md-12 col-sm-12">
+                        <i class="myCoverContent fab fa-github"> </i>
+                        <i class="myCoverContent fab fa-php"> </i>
+                        <i class="myCoverContent fab fa-laravel"> </i>
+                    </div>
+                </div>
+            </section>
+
+            <section class="aboutMeTitle section parallax bg1">
+                <h1>About me</h1>
+            </section>
+
+            <section id="section about">
+                <div class="container">
+                    <div class="row uberRow">
+                        <div class="col-md-8 col-sm-12">
+                            <img src="images/uberATGcar.jpg" alt="uberSDV"/>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <img src="images/UberLogo.png" alt="uberLogo" class="uberLogo"/>
+                            <!-- Job Title and dates of employment -->
+                            <p>Map Production Specialist</p>
+                            <p>Nov 2016 - Sept 2018</p>
+                            <!-- Skills used -->
+                        </div>
+                    </div>  
+                </div>
+            </section>
+
+            <section class="section portfolioTitle parallax bg2">
+
+            </section>
+
+            <section id="section Portfolio">
+                <div class="container">
+                    <!-- Big projects will be presented in their own rows and have descriptions shown alongside them -->
+                    <div class="row">
+                        <div class="col-md-8 col-sm-12">
+                            <div class="projectImg">
+                            <img src="images/keychainProject.PNG" alt="keychainWebApp"/>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 projectDesc">
+                            <h1>Keychain</h1>
+                            <p>Keychain is a find me web application for users to manage the account usernames they accumulate over time.  Usernames can be shared, but they are only visible to users that are friends with you.</p>
+                            <a href="https://keychain19.herokuapp.com/" class="card-link">Live Application</a>
+                            <a href="https://github.com/sl8te/keychain" class="card-link">Github Repository</a>
+                        </div> 
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-sm-12">
+                            <div class="projectImg">
+                            <img src="images/Essentials.PNG" alt="keychainWebApp"/>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 projectDesc">
+                            <h1>Essentials Moving App</h1>
+                            <p>The essentials moving app is site dedicated to helping users find important buildings and locations with a simple use of the search bar.  By doing so, the user can find hospitals, groceries, post offices, and more.</p>
+                            <a href="https://keychain19.herokuapp.com/" class="card-link">Live Application</a>
+                            <a href="https://github.com/sl8te/keychain" class="card-link">Github Repository</a>
+                        </div>
+                    </div>
+                    
+                    <!-- small projects in cards -->
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12">
+                            <!-- Each card should be a background of what they are.  They should hover and show their name and tagline.  Modal will show description and offer showing the live site and github repo -->
+                            <div class="card text-center bg-dark text-white" style="width: 18rem;">
+                                <img src="images/liriapp.PNG" class="card-img"/>
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title">Liri</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Media search node application</h6>
+                                    <div class="col-md-12 col-sm-12">
+                                        <a href="https://github.com/jjmonte20/liri" class="card-link">Github Repository</a>
+                                    </div>
                                 </div>
-                                <h5 class="card-title">Liri</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Media search node application</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <!-- Each card should be a background of what they are.  They should hover and show their name and tagline.  Modal will show description and offer showing the live site and github repo -->
+                            <div class="card text-center bg-dark text-white" style="width: 18rem;">
+                                <img src="images/bamazonHomeScreen.PNG" class="card-img"/>
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title">Bamazon</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Customer Shop Application</h6>
+                                    <div class="col-md-12 col-sm-12">
+                                        <a href="https://github.com/jjmonte20/bamazon" class="card-link">Github Repository</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <!-- Each card should be a background of what they are.  They should hover and show their name and tagline.  Modal will show description and offer showing the live site and github repo -->
+                            <div class="card text-center bg-dark text-white" style="width: 18rem;">
+                                <img src="images/TriviaGame.PNG" class="card-img"/>
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title">Videogame Trivia Quiz</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Time quiz for fans of videogames</h6>
+                                    <div class="col-md-12 col-sm-12">
+                                        <a href="https://jjmonte20.github.io/TriviaGame/" class="card-link">Live Application</a>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12">
+                                        <a href="https://github.com/jjmonte20/TriviaGame" class="card-link">Github Repository</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-1">
 
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <!-- Each card should be a background of what they are.  They should hover and show their name and tagline.  Modal will show description and offer showing the live site and github repo -->
-                        <div class="card text-center bg-dark text-white" style="width: 18rem;">
-                            <img src="images/bamazonHomeScreen.PNG" class="card-img"/>
-                            <div class="card-img-overlay">
-                                <div class="col-md-2 ml-auto">
-                                    <i class="fas fa-expand-arrows-alt cardExpand" data-toggle="modal" data-target="#bamazonModal"></i>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12">
+                            <!-- Each card should be a background of what they are.  They should hover and show their name and tagline.  Modal will show description and offer showing the live site and github repo -->
+                            <div class="card text-center bg-dark text-white" style="width: 18rem;">
+                                <img src="images/heighHo!.PNG" class="card-img"/>
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title">Heigh Ho!</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Counting Gem Game</h6>
+                                    <div class="col-md-12 col-sm-12">
+                                        <a href="https://jjmonte20.github.io/unit-4-game" class="card-link">Live Application</a>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12">
+                                        <a href="https://github.com/jjmonte20/unit-4-game" class="card-link">Github Repository</a>
+                                    </div>
                                 </div>
-                                <h5 class="card-title">Bamazon</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Customer Shop Application</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <!-- Each card should be a background of what they are.  They should hover and show their name and tagline.  Modal will show description and offer showing the live site and github repo -->
+                            <div class="card text-center bg-dark text-white" style="width: 18rem;">
+                                <img src="images/friendFinder.PNG" class="card-img"/>
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title">Friend Finder</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Friend matching quiz</h6>
+                                    <div class="col-md-12 col-sm-12">
+                                        <a href="https://obscure-wave-59263.herokuapp.com/" class="card-link">Live Application</a>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12">
+                                        <a href="https://github.com/jjmonte20/friendfinder" class="card-link">Github Repository</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <!-- Each card should be a background of what they are.  They should hover and show their name and tagline.  Modal will show description and offer showing the live site and github repo -->
+                            <div class="card text-center bg-dark text-white" style="width: 18rem;">
+                                <img src="images/burgers.PNG" class="card-img"/>
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title">Burger Time</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Burger creating and eating app</h6>
+                                    <div class="col-md-12 col-sm-12">
+                                        <a href="https://burgertimewbhpddy.herokuapp.com/" class="card-link">Live Application</a>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12">
+                                        <a href="https://github.com/jjmonte20/burger" class="card-link">Github Repository</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-1">
 
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <!-- Each card should be a background of what they are.  They should hover and show their name and tagline.  Modal will show description and offer showing the live site and github repo -->
-                        <div class="card text-center bg-dark text-white" style="width: 18rem;">
-                            <img src="images/TriviaGame.PNG" class="card-img"/>
-                            <div class="card-img-overlay">
-                                <div class="col-md-2 ml-auto">
-                                    <i class="fas fa-expand-arrows-alt cardExpand" data-toggle="modal" data-target="#triviaModal"></i>
-                                </div>
-                                <h5 class="card-title">Videogame Trivia Quiz</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Time quiz for fans of videogames</h6>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+            </section>
 
-                <div class="row">
-                    <div class="col-md-3 col-sm-12">
-                        <!-- Each card should be a background of what they are.  They should hover and show their name and tagline.  Modal will show description and offer showing the live site and github repo -->
-                        <div class="card text-center bg-dark text-white" style="width: 18rem;">
-                            <img src="images/heighHo!.PNG" class="card-img"/>
-                            <div class="card-img-overlay">
-                                <div class="col-md-2 ml-auto">
-                                    <i class="fas fa-expand-arrows-alt cardExpand" data-toggle="modal" data-target="#gemGameModal"></i>
-                                </div>
-                                <h5 class="card-title">Heigh Ho!</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Counting Gem Game</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-1">
-
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <!-- Each card should be a background of what they are.  They should hover and show their name and tagline.  Modal will show description and offer showing the live site and github repo -->
-                        <div class="card text-center bg-dark text-white" style="width: 18rem;">
-                            <img src="images/friendFinder.PNG" class="card-img"/>
-                            <div class="card-img-overlay">
-                                <div class="col-md-2 ml-auto">
-                                    <i class="fas fa-expand-arrows-alt cardExpand" data-toggle="modal" data-target="#friendFinderModal"></i>
-                                </div>
-                                <h5 class="card-title">Friend Finder</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Friend matching quiz</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-1">
-
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <!-- Each card should be a background of what they are.  They should hover and show their name and tagline.  Modal will show description and offer showing the live site and github repo -->
-                        <div class="card text-center bg-dark text-white" style="width: 18rem;">
-                            <img src="images/burgers.PNG" class="card-img"/>
-                            <div class="card-img-overlay">
-                                <div class="col-md-2 ml-auto">
-                                    <i class="fas fa-expand-arrows-alt cardExpand" data-toggle="modal" data-target="#burgerTimeModal"></i>
-                                </div>
-                                <h5 class="card-title">Burger Time</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Burger creating and eating app</h6>
-                            </div>
-                        </div>
-                    </div>
+            <section class="section footer">
+                <div class="container">
+                    <p>Catch me on linkedIn and Github, links in the logo down below.  Email me at <jjmonte20@gmail class="com">jjmonte20@gmail.com</jjmonte20@gmail></p>
+                    <a class="linkedIn" href="https://www.linkedin.com/in/julian-montejano-541b6a91/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="github" href="https://github.com/jjmonte20">
+                        <i class="fab fa-github-square"></i>
+                    </a>
                 </div>
-
-            </div>
-        </section>
-
-        <footer id="footer">
-            <div class="container">
-                <p>Catch me on linkedIn and Github, links in the logo down below.  Email me at <jjmonte20@gmail class="com">jjmonte20@gmail.com</jjmonte20@gmail></p>
-                <a class="linkedIn" href="https://www.linkedin.com/in/julian-montejano-541b6a91/">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a class="github" href="https://github.com/jjmonte20">
-                    <i class="fab fa-github-square"></i>
-                </a>
-            </div>
-        </footer>
-
-        <!-- Modals live here -->
-
-        <!-- Modal -->
-        <div class="modal modal-xl fade paginationblock" id="triviaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-center" role="document">
-                <div class="modal-content triviaBackground">
-                    <div class="modal-body">
-                        <p>A two minute, ten question quiz where the user answers questions by clicking one of four options.  Answer will be provided if incorrect, and final score will be provided at the end of the quiz or the timer ends.</p>
-                        <a href="https://jjmonte20.github.io/TriviaGame/" class="card-link">Live Application</a>
-                        <a href="https://github.com/jjmonte20/TriviaGame" class="card-link">Github Repository</a>
-                    </div>
-                </div>
-            </div>
+            </section>
         </div>
-        <!-- Modal -->
-        <div class="modal modal-xl fade" id="bamazonModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-center" role="document">
-                <div class="modal-content bamazonBackground">
-                    <div class="modal-body">
-                        <p>Nodejs and SQL shop where user can shop for a set amount of items.  Storefront should show the price and quantity of stock for each item in the store and the ability for the user to buy items.</p>
-                        <a href="https://github.com/jjmonte20/bamazon" class="card-link">Github Repository</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal -->
-        <div class="modal modal-xl fade" id="liriModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-center" role="document">
-                <div class="modal-content liriBackground">
-                    <div class="modal-body">
-                        <p>Search application that will search for songs or concerts from an artist.  Can also search for movie information and set up a custom command.</p>
-                        <a href="https://github.com/jjmonte20/liri" class="card-link">Github Repository</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal -->
-        <div class="modal modal-xl fade" id="gemGameModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-center" role="document">
-                <div class="modal-content liriBackground">
-                    <div class="modal-body">
-                        <p>Counting game where a target score will show on the screen and the user is provided with gems with random, but consistent values for the length of the game.  The user can find the value of each gem by clicking it and comparing the score before and after clicking the gem.  User wins if they hit the target score correctly, and lose if they go over the target score.</p>
-                        <a href="https://jjmonte20.github.io/unit-4-game" class="card-link">Live Application</a>
-                        <a href="https://github.com/jjmonte20/unit-4-game" class="card-link">Github Repository</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal -->
-        <div class="modal modal-xl fade" id="friendFinderModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-center" role="document">
-                <div class="modal-content liriBackground">
-                    <div class="modal-body">
-                        <p>User fills out a preferential quiz.  When the user submits their quiz, they are matched with an existing friend that answers questions that are the most similar to the questions the user answered themselves.</p>
-                        <a href="https://obscure-wave-59263.herokuapp.com/" class="card-link">Live Application</a>
-                        <a href="https://github.com/jjmonte20/friendfinder" class="card-link">Github Repository</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal -->
-        <div class="modal modal-xl fade" id="burgerTimeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-center" role="document">
-                <div class="modal-content liriBackground">
-                    <div class="modal-body">
-                        <p>User can add and eat hamburgers to the existing array that appears on screen.  Data will persist so once a burger is eaten, it cannot reappear as uneaten.</p>
-                        <a href="https://burgertimewbhpddy.herokuapp.com/" class="card-link">Live Application</a>
-                        <a href="https://github.com/jjmonte20/burger" class="card-link">Github Repository</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script>
@@ -290,6 +250,12 @@
             origin: 'bottom',
             distance: '100px'
         });
+        sr.reveal('.uberRow', {
+            duration: 2000,
+            origin: 'bottom',
+            distance: '300px',
+            viewFactor: 0.2
+        })
         sr.reveal('.projectImg',{
             duration: 2000,
             origin: 'bottom',
@@ -309,25 +275,25 @@
             viewFactor: 0.2
         });
     </script>
-    <script>
-    $(function() {
-        // Smooth Scrolling
-        $('a[href*="#"]:not([href="#"])').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') &&
-            location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name =' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html, body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>
+            $(function() {
+                // Smooth Scrolling
+                $('a[href*="#"]:not([href="#"])').click(function() {
+                    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') &&
+                    location.hostname == this.hostname) {
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name =' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            $('html, body').animate({
+                                scrollTop: target.offset().top
+                            }, 1000);
+                            return false;
+                        }
+                    }
+                });
+            });
+            </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </body>
