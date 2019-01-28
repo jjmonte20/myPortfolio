@@ -1,23 +1,32 @@
 body, html {
-    font-family: Poppins
+    font-family: Poppins;
+    background-color: rgb(114, 132, 168);
+    color: white;
 }
 
-.navbar-default {
-    background: #fff;
+.introCard {
+    background-color: rgb(169,179,206);
     border: 0;
-    font-family: Poppins
 }
 
 .coverPageTxt {
-    margin-top: 15%;
+    background-color: rgb(169,179,206);
     text-align: center;
     height: 600px;
+}
+
+.myCoverContent {
+    margin-top: 15%;
+}
+
+.avatarImg {
+    width: 100%;
+    background-color: rgb(169,179,206);
 }
 
 i {
     font-size: 50px;
     margin: 1%;
-    color: black;
 }
 
 .nav-toggler {
@@ -53,7 +62,8 @@ section {
 
 .card:hover .card-img-overlay {
     opacity: 1;
-    background-color:rgb(79, 124, 172, .5)
+    margin-top: 20px;
+    background-color:rgb(79, 124, 172, .8)
 }
 
 img {
@@ -91,6 +101,15 @@ img {
 
 .schoolCard {
     border: 0;
+    background-color: rgb(114, 132, 168);;
+}
+
+.text-muted {
+    color: rgb(169, 179, 206)!important;
+}
+
+.card-link {
+    color: rgb(124, 222, 220)!important;
 }
 
 .bg1 {
@@ -117,11 +136,30 @@ img {
     background-size: cover;
 }
 
+.bottomIcon {
+    color: rgb(169, 179, 206)!important;
+}
+
+.coverRow {
+    background-color: rgb(169,179,206);
+    margin: 0;
+}
+
+.avatarImg {
+    margin-bottom: 1%
+}
+
 /* on the bottom */
 
 @media only screen and (max-width: 600px) {
+    .coverPageTxt{
+        margin-top: 20%;
+    }
     .card {
         margin: auto;
         margin-top: 1%;
+    }
+    .appleRow, .uberRow {
+        text-align: center
     }
 }
