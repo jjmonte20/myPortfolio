@@ -2,24 +2,6 @@ body, html {
     font-family: Poppins
 }
 
-.bg1 {
-    background-image: url(images/SAskyline.jpg);
-    height: 300px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.bg2 {
-    background-image: url(images/PITskyline.jpg);
-    height: 300px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .navbar-default {
     background: #fff;
     border: 0;
@@ -88,6 +70,51 @@ img {
 
 .projectDesc {
     text-align: center
+}
+
+.fa-apple {
+    font-size: 150px;
+}
+
+.parallax {
+    text-align: center;
+}
+
+.aboutMeHeader {
+    color: white;
+    padding-top: 120px;
+}
+
+.schoolRow {
+    text-align: center;
+}
+
+.schoolCard {
+    border: 0;
+}
+
+.bg1 {
+    background: linear-gradient(
+        rgba(62, 29, 96, 0.7), 
+        rgba(62, 29, 96, 0.7)
+      ), url(images/ATXskyline.jpg);
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg2 {
+    background: linear-gradient(
+        rgba(62, 29, 96, 0.45), 
+        rgba(62, 29, 96, 0.45)
+      ), url(images/PITskyline.jpg);
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* on the bottom */

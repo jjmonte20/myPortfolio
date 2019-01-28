@@ -58,11 +58,36 @@
             </section>
 
             <section class="aboutMeTitle section parallax bg1">
-                <h1>About me</h1>
+                <h1 class="aboutMeHeader">About me</h1>
             </section>
 
             <section id="section about">
                 <div class="container">
+                    <div class="row schoolRow">
+                        <div class="col-md-12 col-sm-12">
+                            <i class="fas fa-school"></i> 
+                        </div>
+                    </div>
+                    <div class="row schoolRow">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="card schoolCard">
+                                <div class="card-body">
+                                    <h2 class="schoolTitle">University of Texas</h2>
+                                    <h3 class="schoolTime">Oct 2018 - January 2019</h3>
+                                    <p>Full Stack Web Development Coding Program</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="card schoolCard">
+                                <div class="card-body">
+                                    <h2 class="schoolTitle">Texas State University</h2>
+                                    <h3 class="schoolTime">Aug 2009 - May 2014</h3>
+                                    <p>B.S. Physical Geography</p>
+                                </div>
+                            </div> 
+                        </div>   
+                    </div>
                     <div class="row uberRow">
                         <div class="col-md-8 col-sm-12">
                             <img src="images/uberATGcar.jpg" alt="uberSDV"/>
@@ -72,14 +97,28 @@
                             <!-- Job Title and dates of employment -->
                             <p>Map Production Specialist</p>
                             <p>Nov 2016 - Sept 2018</p>
+                            <p>As a Map Production Specialist at Uber Advanced Technology Group, I would test production tools and database catalogging.  Contributed to blueprinting new map production software.  Produced and QA maps in use by Uber autonomous vehicles.</p>
                             <!-- Skills used -->
                         </div>
-                    </div>  
+                    </div>
+                    <div class="row appleRow">
+                        <div class="col-md-8 col-sm-12">
+                            <img src="images/apple-maps.jpg" alt="appleMaps"/>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <i class="fab fa-apple"></i>
+                            <!-- Job Title and dates of employment -->
+                            <p>GIS Technician</p>
+                            <p>OCt 2015 - Oct 2016</p>
+                            <p>I would provide location service fixes for users requesting updates in address and location, including map updates and spot edits.  I would also provide notes for policy updates, and application tests.</p>
+                            <!-- Skills used -->
+                        </div>
+                    </div> 
                 </div>
             </section>
 
             <section class="section portfolioTitle parallax bg2">
-
+                <h1 class="aboutMeHeader">Portfolio</h1>
             </section>
 
             <section id="section Portfolio">
@@ -252,7 +291,13 @@
         });
         sr.reveal('.uberRow', {
             duration: 2000,
-            origin: 'bottom',
+            origin: 'right',
+            distance: '300px',
+            viewFactor: 0.2
+        });
+        sr.reveal('.appleRow', {
+            duration: 2000,
+            origin: 'right',
             distance: '300px',
             viewFactor: 0.2
         })
@@ -269,6 +314,12 @@
             viewFactor: 0.2
         });
         sr.reveal('.card', {
+            duration: 2000,
+            origin: 'bottom',
+            distance: '300px',
+            viewFactor: 0.2
+        });
+        sr.reveal('.fa-school', {
             duration: 2000,
             origin: 'bottom',
             distance: '300px',
