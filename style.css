@@ -62,7 +62,6 @@ section {
 
 .card:hover .card-img-overlay {
     opacity: 1;
-    margin-top: 20px;
     background-color:rgb(79, 124, 172, .8)
 }
 
