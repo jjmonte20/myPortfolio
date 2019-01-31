@@ -157,9 +157,13 @@ img {
     }
     .card {
         margin: auto;
-        margin-top: 1%;
+        margin-top: 3%;
     }
     .appleRow, .uberRow {
-        text-align: center
+        text-align: center;
+        margin-top: 3%;
+    }
+    .projectRow {
+        margin-top: 3%;
     }
 }
